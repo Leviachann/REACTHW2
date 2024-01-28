@@ -1,0 +1,35 @@
+.cardd{
+    margin: 2em;
+    padding-right: 0px;
+}
+.title{
+    font-weight: 900;
+}
+.genre{
+    font-weight: 200;
+    font-style: oblique;
+    margin-bottom:-0.5em;
+}
+.desc{
+    font-weight: 600;
+    margin-bottom:-0.5em;
+}
+.moviecard{
+  width: 20%;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  
+  .movie-card {
+    flex: 1 0 5%; 
+    margin-right: 4em;
+    
+    margin-left: 4em;
+  }
+  
